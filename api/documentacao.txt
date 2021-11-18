@@ -1,0 +1,19 @@
+PARAMETROS
+
+id
+id_status,
+serie,
+ano,
+numero_temporadas,
+categoria,
+sinopse
+
+
+ROTAS
+
+(GET) - /api/      { apresenta todos os dados}
+(GET) - /api/get.php?id=1   {apresenta dados do id 1} 
+(GET) - /api/get.php  {parametro = id}
+(POST) - /api/insert.php  {parametros=  serie, ano, numero_temporadas, categoria, sinopse}
+(PUT)  - /api/update.php {parametros= id, id_status, serie, ano, numero_temporadas, categoria, sinopse}
+(DELETE) /api/delete.php  {parametro= id}
